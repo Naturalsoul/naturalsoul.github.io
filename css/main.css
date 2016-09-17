@@ -82,11 +82,38 @@
 	padding-right: 10px;
 }
 
+/* -------- Home -------- */
 
+.jumbotron {
+	background-image: url("../imgs/home.png");
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	min-height: 100vh;
+	background-color: white;
+}
 
+#home {
+	margin-top: 50px;
+	padding-left: 85px;
+	padding-right: 85px;
+	color: white;
+	font-family: times;
+}
 
+#home > img {
+	width: 320px;
+	height: 250px;
+}
 
+#name {
+	font-size: 45px;
+}
 
+#nickname {
+	font-size: 45px;
+	font-weight: bold;
+}
 
 
 
