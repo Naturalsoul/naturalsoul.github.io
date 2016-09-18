@@ -41,20 +41,41 @@
 	font-weight: bold;
 }
 
+/* --------------------------------------------- */
 
+/* ------------ About me ----------------------- */
 
+#title {
+	font-family: monospace !important;
+}
 
+#avatar {
+	width: 250px;
+	height: 250px;
+	border-radius: 50px;
+}
 
+/* --------------------------------------------- */
 
+/* -------------- Experience ------------------- */
 
+#experience {
+	background-image: url("../imgs/experience.jpg");
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	min-height: 100vh;
+	background-color: white;
+}
 
+/* --------------------------------------------- */
 
 @media screen and (max-width: 568px) {
 	#name, #nickname {
 		font-size: 25px;
 	}
 
-	#home > img {
+	#home > img, #avatar {
 		width: 120px;
 		height: 100px;
 	}
