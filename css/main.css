@@ -11,7 +11,7 @@
 /* -------- Home -------- */
 
 .jumbotron {
-	background-image: url("../imgs/home.png");
+	background-image: url("../imgs/home.jpg");
 	background-position: center center;
 	background-attachment: fixed;
 	background-size: cover;
@@ -75,12 +75,21 @@
 		font-size: 25px;
 	}
 
-	#home > img, #avatar {
-		width: 120px;
-		height: 100px;
+	#home > img {
+		width: 200px;
+		height: 170px;
 	}
 
 	#home > p {
 		font-size: 10px;
+	}
+
+	#avatar {
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 20px;
+		width: 180px;
+		height: 180px;
+		margin-bottom: 20px;
 	}
 }
