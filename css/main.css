@@ -4,8 +4,45 @@
    Author's custom styles
    ========================================================================== */
 
+@font-face {
+	font-family: "Roboto-thin";
+	src: url("../fonts/Roboto-Thin.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Roboto-light";
+	src: url("../fonts/Roboto-Light.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Kiye-sans";
+	src: url("../fonts/Kiye-Sans.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Sansation";
+	src: url("../fonts/Sansation_Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Lemon Milk";
+	src: url("../fonts/LemonMilk.otf") format("truetype");
+}
+
+p#subtitle {
+	font-family: "Kiye-Sans", times;
+}
+
+p.text {
+	font-family: "Sansation", times;
+}
+
 .navbar-nav {
 	padding-right: 10px;
+}
+
+.title {
+	font-family: "Lemon Milk", times;
 }
 
 /* -------- Home -------- */
@@ -33,21 +70,18 @@
 }
 
 #name {
+	font-family: "Roboto-thin", times;
 	font-size: 45px;
 }
 
 #nickname {
+	font-family: "Roboto-light", times;
 	font-size: 45px;
-	font-weight: bold;
 }
 
 /* --------------------------------------------- */
 
 /* ------------ About me ----------------------- */
-
-#title {
-	font-family: monospace !important;
-}
 
 #avatar {
 	width: 250px;
