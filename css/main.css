@@ -103,6 +103,7 @@ p.text {
 }
 
 .exptext {
+	font-family: "Roboto-light", times;
 	color: white;
 }
 
