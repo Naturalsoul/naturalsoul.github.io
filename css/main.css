@@ -109,6 +109,14 @@ p.text {
 
 /* --------------------------------------------- */
 
+/* ----------- Contact ------------------------- */
+
+#contactform {
+	margin: 5px 180px 5px 180px;
+}
+
+/* --------------------------------------------- */
+
 @media screen and (max-width: 568px) {
 	#name, #nickname {
 		font-size: 35px;
@@ -130,5 +138,9 @@ p.text {
 		width: 180px;
 		height: 180px;
 		margin-bottom: 20px;
+	}
+
+	#contactform {
+		margin: 0;
 	}
 }
