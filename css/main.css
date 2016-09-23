@@ -64,7 +64,7 @@ p.text {
 	font-family: times;
 }
 
-#home > img {
+#home > a > img {
 	width: 320px;
 	height: 250px;
 }
@@ -122,7 +122,7 @@ p.text {
 		font-size: 35px;
 	}
 
-	#home > img {
+	#home > a > img {
 		width: 200px;
 		height: 170px;
 	}
@@ -144,3 +144,10 @@ p.text {
 		margin: 0;
 	}
 }
+
+/* ------------ TreeDevs ----------- */
+
+.carousel, .item {
+	max-height: 500px;
+}
+
