@@ -3,11 +3,11 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Naturalsoul -- Project Manager, Web Developer, Human -- @naturalsoul08
 
 # THANKS
 
-    <name>
+    Naturalsoul
 
 # TECHNOLOGY COLOPHON
 
