@@ -143,11 +143,32 @@ p.text {
 	#contactform {
 		margin: 0;
 	}
+
+	.carousel, .item > img {
+		max-height: 280px;
+		width: 100%;
+	}
 }
 
 /* ------------ TreeDevs ----------- */
+
+.gray {
+	color: #ccd1d1;
+}
 
 .carousel, .item {
 	max-height: 500px;
 }
 
+.carousel-caption {
+	background-color: rgba(0, 0, 0, .5);
+}
+
+.carousel-caption > h2 {
+	font-family: "Lemon Milk";
+}
+
+.carousel-caption > p {
+	font-family: "Roboto-light";
+	font-weight: bold;
+}
