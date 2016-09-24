@@ -1,0 +1,74 @@
+@font-face {
+	font-family: "Lemon Milk";
+	src: url("../fonts/LemonMilk.otf") format("truetype");
+}
+
+@font-family {
+	font-family: "Roboto-light";
+	src: url("../fonts/Roboto-Light.ttf") format("truetype");
+}
+
+.title {
+	font-family: "Lemon Milk";
+}
+
+.text {
+	font-family: "Roboto-light";
+}
+
+.jumbotron {
+	background-image: url("../imgs/treedevs/home.jpg");
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	min-height: 100vh;
+}
+
+#home {
+	padding: 0px 200px 0px 200px;
+	color: white;
+}
+
+#home > a > img {
+	width: 320px;
+	height: 250px;
+}
+
+.glyphicon {
+	font-size: 50px;
+	padding-bottom: 10px;
+}
+
+#services {
+	background-image: url("../imgs/treedevs/services.jpg");
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	min-height: 100vh;
+	color: white;
+}
+
+.service-frame {
+	background-color: rgba(0, 0, 0, .4);
+	padding: 15px;
+	border-radius: 15px;
+	margin: 5px;
+	height: 180px;
+	max-height: 180px;
+	overflow: hidden;
+}
+
+@media screen and (max-width: 568px) {
+	#logo {
+		width: 200px;
+		height: 170px;
+	}
+
+	#home {
+		padding: 0px;
+	}
+
+	.title > h2 {
+		font-size: 35px;
+	}
+}
