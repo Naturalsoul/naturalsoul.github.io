@@ -16,6 +16,13 @@
 	font-family: "Roboto-light";
 }
 
+.hidden{
+     opacity:0;
+}
+.visible{
+     opacity:1;
+}
+
 .jumbotron {
 	background-image: url("../imgs/treedevs/home.jpg");
 	background-position: center center;
@@ -41,6 +48,7 @@
 
 #about {
 	padding: 0px 180px 10px 180px;
+	margin-bottom: 15px;
 }
 
 #services {
@@ -53,7 +61,7 @@
 }
 
 .service-frame {
-	background-color: rgba(0, 0, 0, .4);
+	background-color: rgba(0, 0, 0, .8);
 	padding: 15px;
 	border-radius: 15px;
 	margin: 5px;
